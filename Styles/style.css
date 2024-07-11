@@ -8,7 +8,7 @@
 
 body {
     font-family: "Azeret Mono", monospace;
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .center-align {
@@ -32,6 +32,7 @@ nav a {
     font-weight: 800;
     line-height: 33px;
     text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 
 nav a button {
@@ -146,7 +147,7 @@ header div img {
     gap: 100px;
     width: 850px;
     border-radius: 16px;
-    background: linear-gradient(100.00deg, rgba(246, 226, 226, 0.508), rgba(233, 152, 152, 0.03) 100%);
+    background: linear-gradient(270.00deg, rgba(246, 226, 226, 0.508), rgba(233, 152, 152, 0.03) 160%);
     padding: 48px 48px;
 }
 
