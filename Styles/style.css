@@ -175,7 +175,7 @@ header div img {
 
 /* Inspiration Styles */
 .inspiration {
-    margin: 90px;
+    margin: 90px 150px;
     width: 1140px;
     display: flex;
     flex-direction: column;
@@ -194,6 +194,7 @@ header div img {
     border-radius: 15px;
     width: 1070px;
     height: 550px;
+    justify-content: center;
 }
 
 /* My Current Target Styles */
@@ -219,7 +220,7 @@ header div img {
     max-width: 364px;
     display: flex;
     flex-direction: column;
-    align-content: start;
+    align-self: flex-end;
 }
 
 .card img {
@@ -245,4 +246,87 @@ header div img {
     font-size: 16px;
     font-weight: 700;
     color: rgb(13, 19, 33);
+}
+
+/* Support Styles */
+.support {
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 16px;
+    max-width: 1140px;
+    padding: 64px 50px;
+    text-align: center;
+    margin: 60px 150px 50px 150px;
+}
+
+.support-content {
+    width: 750px;
+}
+
+.support-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.support-descrip {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+
+}
+
+.feedback {
+    text-align: center;
+}
+
+.feedback input[type="text"] {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 70px 12px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.feedback input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+    border: none;
+    border-radius: 16px;
+}
+
+.footer-descrip {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgb(13, 19, 33);
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.footer-icon a img {
+    width: 36px;
+    height: 36px;
 }
