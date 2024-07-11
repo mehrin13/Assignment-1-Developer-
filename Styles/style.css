@@ -16,6 +16,10 @@ body {
 }
 
 /* Header Style (nav)*/
+header {
+    margin: 30px auto;
+}
+
 nav {
     margin: 40px;
     display: flex;
@@ -191,7 +195,7 @@ header div img {
 
 /* Inspiration Styles */
 .inspiration {
-    margin: 90px 150px;
+    margin: 100px 150px;
     width: 1140px;
     display: flex;
     flex-direction: column;
@@ -219,6 +223,7 @@ header div img {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin: 70px auto;
 }
 
 .target-cards {
@@ -275,23 +280,29 @@ header div img {
 }
 
 /* Support Styles */
-.support {
+.support-bg {
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    /* background-color: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email); */
     border: none;
     border-radius: 16px;
     max-width: 1140px;
+}
+
+.support {
+    max-width: 1140px;
     padding: 100px 50px;
     text-align: center;
-    margin: 60px 150px 50px 150px;
+    margin: 130px 150px 100px 150px;
 }
 
 .support-content {
-    width: 750px;
+    width: 650px;
 }
 
 .support-title {
+    margin: 15px auto;
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
@@ -308,6 +319,11 @@ header div img {
 }
 
 .feedback {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -315,7 +331,7 @@ header div img {
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
-    padding: 12px 70px 12px 20px;
+    padding: 15px 20px 15px 20px;
     border: none;
     border-radius: 10px;
     width: 70%;
@@ -325,13 +341,14 @@ header div img {
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     border: none;
     border-radius: 10px;
 }
 
 /* Footer Styles */
 footer {
+    max-width: 1440px;
     display: flex;
     align-items: center;
     background-color: rgba(13, 19, 33, 0.03);
