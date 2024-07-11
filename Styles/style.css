@@ -9,7 +9,6 @@
 body {
     font-family: "Azeret Mono", monospace;
     width: 1440px;
-    height: 652px;
 }
 
 .center-align {
@@ -45,7 +44,7 @@ nav a button {
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     width: 1440px;
-    height: 952px;
+    height: 752px;
 }
 
 .hero {
@@ -78,6 +77,8 @@ nav a button {
 header div img {
     width: 240.28px;
     height: 240px;
+    text-align: center;
+
 }
 
 .btn {
@@ -135,14 +136,28 @@ header div img {
     padding: 48px 48px;
 }
 
+.reason-mid {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    width: 850px;
+    border-radius: 16px;
+    background: linear-gradient(100.00deg, rgba(246, 226, 226, 0.508), rgba(233, 152, 152, 0.03) 100%);
+    padding: 48px 48px;
+}
+
 .reason-left {
     max-width: 60%;
     margin: 10px 0;
+    row-gap: 39px;
+}
+
+
+.reason-left-inner {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: start;
-    gap: 20px;
+    gap: 30px;
 }
 
 .reason-title {
@@ -161,6 +176,7 @@ header div img {
 
 .link-btn {
     padding: 10px 20px;
+    margin-top: 20px;
     border: 1.5px solid rgb(13, 19, 33, 0.7);
     font-size: 20px;
     font-weight: 600;
@@ -256,7 +272,7 @@ header div img {
     border: none;
     border-radius: 16px;
     max-width: 1140px;
-    padding: 64px 50px;
+    padding: 100px 50px;
     text-align: center;
     margin: 60px 150px 50px 150px;
 }
@@ -311,6 +327,7 @@ footer {
     background-color: rgba(13, 19, 33, 0.03);
     border: none;
     border-radius: 16px;
+    padding: 30px;
 }
 
 .footer-descrip {
