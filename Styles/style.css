@@ -230,19 +230,27 @@ header div img {
 }
 
 .card {
+    width: 364px;
+    height: 300px;
     padding: 40px 40px;
     border: none;
     border-radius: 16px;
     max-width: 364px;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
+    text-align: left;
 }
 
 .card img {
     width: 56px;
     height: 56px;
-    position: top left;
+    margin: 20px 0px 30px 0px;
+}
+
+.target-description {
+    margin: 20px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: start;
 }
 
 .card-html {
@@ -259,8 +267,10 @@ header div img {
 }
 
 .card-anchor {
+    margin-top: 20px;
     font-size: 16px;
     font-weight: 700;
+    line-height: 19px;
     color: rgb(13, 19, 33);
 }
 
